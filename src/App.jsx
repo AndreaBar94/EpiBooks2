@@ -4,7 +4,7 @@ import MyNav from "./components/MyNav";
 import Welcome from "./components/Welcome";
 import BookList from "./components/BookList";
 import MyFooter from "./components/MyFooter";
-// import SingleBook from "./components/SingleBook";
+
 
 function App() {
 	return (
@@ -12,7 +12,6 @@ function App() {
 			<MyNav/>
 			<Welcome/>
 			<BookList/>
-			{/* <SingleBook/> */}
 			<MyFooter/> 
 		</>
 	);

@@ -16,9 +16,7 @@ class SingleBook extends Component {
             <Card.Img 
             src={this.props.img} 
             className="img-fluid contain" 
-            onClick={()=>{
-                this.handleChange()
-            }}/>
+            onClick={this.handleChange}/>
             <Card.Body>
                 <Card.Title>{this.props.title}</Card.Title>
                 <Card.Text>
