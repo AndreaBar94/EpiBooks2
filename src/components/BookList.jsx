@@ -54,7 +54,7 @@ class BookList extends Component {
                 <Row className="bg-warning bg-opacity-50 p-5">
                 {filteredBooks.map((book) => (
                     <Col key={`book-${book.asin}`} className="col-12 col-md-4 col-lg-3 col-xl-2 pb-4">
-                    <SingleBook img={book.img} title={book.title} price={book.price}/>
+                    <SingleBook  img={book.img} title={book.title} price={book.price}/>
                     </Col>
                 ))}
                 </Row>
