@@ -6,10 +6,8 @@ class SingleBook extends Component {
         selected: false,
     };
     handleChange = () => {
-        this.setState({ selected: true});
-        if(this.state.selected === true) {
-            this.setState({selected: false}) 
-    }};
+        this.setState({ selected: !this.state.selected });
+};
     
     render() {
         const cardClassName = this.state.selected ? "border border-danger" : "";
