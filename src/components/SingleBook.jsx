@@ -10,7 +10,7 @@ class SingleBook extends Component {
 };
     
     render() {
-        const cardClassName = this.state.selected ? "border border-danger" : "";
+        const cardClassName = this.state.selected ? "border-2 border-danger" : "";
         return(
             <Card className={cardClassName}>
             <Card.Img 
